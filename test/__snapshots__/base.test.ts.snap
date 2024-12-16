@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`base test base test 1`] = `"return typeof value === 'object' && value !== null && value.hasOwnProperty('province') && typeof value['province'] === "string" && (!value.hasOwnProperty('provinceName') || true) && value.hasOwnProperty('child') && Array.isArray(value['child']) && value['child'].every((element, i) => typeof value['child'][i] === "number");"`;
+
+exports[`base test base test 2`] = `
+"function anonymous(value
+) {
+return typeof value === 'object' && value !== null && value.hasOwnProperty('province') && typeof value['province'] === "string" && (!value.hasOwnProperty('provinceName') || true) && value.hasOwnProperty('child') && Array.isArray(value['child']) && value['child'].every((element, i) => typeof value['child'][i] === "number");
+}"
+`;
